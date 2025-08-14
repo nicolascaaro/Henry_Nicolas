@@ -1,0 +1,368 @@
+/* --- ESTILOS BASE --- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+header{
+    background-image: url("/images/banner-bk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imagenono{
+    margin : 20px 20px 0 150px;
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -32vh 0 -40vh;
+    align-items: center;
+}
+header p{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-self: right;
+    margin-left: 750px; 
+}
+.contenido{
+    color: white;
+}
+.contenido h1{
+    margin-left: 150px;
+    font-size: 50px;
+}
+.contenido pre{
+    margin: 35px 0 0 150px;
+    font-size: 20px;
+}
+.primero{
+    background-color: #5ae096;
+    color: rgb(36, 39, 56);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 50px 0 30px 150px;
+}
+.seccion2{
+    background: linear-gradient(165deg , #ffffff 37%, #5ae096 0%);
+}
+.seccion1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.contenedor h3{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 5px 0;
+}
+.con1, .con2, .con3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+.contenedor2 h2{
+    display: block;
+}
+.contenedor2 pre{
+    margin: 10px;
+}
+.contenedor2 button{
+    background-color: rgb(36, 39, 56);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;   
+    margin: 20px 0 0 10px; 
+}
+.imagenonoo {
+    width: 400px;
+    max-width: 45%;
+}
+.contenedor3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 100px;
+}
+.texto{
+    gap: 10px;
+    margin: 50px;
+}
+.imagen {
+    width: 400px;
+}
+.contenedor4 {
+    text-align: center;
+    padding: 80px 20px;
+}
+.buton1{
+    background-color: rgb(36, 39, 56);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;   
+    margin: 20px 0 0 10px; 
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.plan {
+    background: #f4f4f4;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+}
+.plan.featured {
+    background: #242738;
+    color: white;
+}
+.plan .price {
+    font-size: 32px;
+    font-weight: bold;
+}
+.plan ul {
+    list-style: none;
+    margin: 20px 0;
+}
+.plan li {
+    margin-bottom: 8px;
+}
+.buton2{
+    border-bottom: rgb(36, 39, 56);
+    color: rgb(36, 39, 56);
+    padding: 10px 20px;
+    border-radius: 20px;  
+    margin: 20px 0 0 10px; 
+}
+.buton3{
+    background-color: #5ae096;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;   
+    margin: 20px 0 0 10px; 
+}
+.buton4{
+    border-bottom: rgb(36, 39, 56);
+    color: rgb(36, 39, 56);
+    padding: 10px 20px;
+    border-radius: 20px;  
+    margin: 20px 0 0 10px; 
+}
+.patrocinio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+.patrocinio img {
+    height: 40px;
+    margin: 20px;
+}
+.footer {
+    background-image: url("/images/contact-bk.jpg");
+    color: white;
+    padding: 60px 20px;
+}
+.contact {
+    display: flex;
+    gap: 100px;
+}
+.contact .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+.contact .form input,
+.contact .form textarea {
+    padding: 10px;
+    border: 1px solid #5ae096;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.contact .form button {
+    background-color: #5ae096;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;   
+    margin: 20px 0 0 10px; 
+}
+.copyright {
+    background-color: #142440;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding: 20px;
+}
+span{
+    font-size: 60px;
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+================================ */
+
+/* --- Móviles pequeños --- */
+@media (max-width: 480px) {
+    header {
+        background-attachment: scroll;
+        text-align: center;
+        padding: 20px;
+    }
+    .logo {
+        flex-direction: column;
+        align-items: center;
+    }
+    header p {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .imagenono {
+        margin: 0;
+        width: 90px;
+    }
+    .contenido h1 {
+        margin-left: 0;
+        font-size: 28px;
+    }
+    .contenido pre {
+        margin: 10px auto;
+        font-size: 16px;
+        text-align: center;
+        max-width: 90%;
+    }
+    .primero {
+        margin: 20px auto;
+        display: block;
+    }
+    .contenedor {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .con1, .con2, .con3 {
+        width: 100%;
+        max-width: 300px;
+    }
+    .contenedor2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .imagenonoo {
+        max-width: 100%;
+    }
+    .contenedor3 {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .imagen {
+        width: 100%;
+        max-width: 350px;
+    }
+    .plans {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .plan {
+        width: 90%;
+        max-width: 320px;
+    }
+    .patrocinio {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* --- Tablets --- */
+@media (min-width: 481px) and (max-width: 768px) {
+    header p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenido h1 {
+        font-size: 32px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .contenido pre {
+        margin-left: 0;
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .primero {
+        margin: 20px auto;
+        display: block;
+    }
+    .contenedor {
+        flex-wrap: wrap;
+        gap: 30px;
+        height: auto;
+        justify-content: center;
+    }
+    .contenedor2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .contenedor3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .imagen {
+        width: 80%;
+    }
+    .plans {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
